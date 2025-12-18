@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "Mil3GFAZ44M9PBfVw+9nv8OOJrNkgDicQPgnu+a6eAg=",
-  "Source": "WebAppAPITest1",
-  "BasePath": "_content/WebAppAPITest1",
+  "Hash": "dC0vE933/NJh+eDM8UoAqipkLm0AvncYRxeGO1CGILk=",
+  "Source": "SchoolWebAppAPI",
+  "BasePath": "_content/SchoolWebAppAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

@@ -635,9 +635,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\JobPrep_2025\\Web Test\\WebAppAPITest1\\WebAppAPITest1\\WebAppAPITest1.csproj",
-      "projectName": "WebAppAPITest1",
-      "projectPath": "C:\\JobPrep_2025\\Web Test\\WebAppAPITest1\\WebAppAPITest1\\WebAppAPITest1.csproj",
+      "projectUniqueName": "C:\\JobPrep_2025\\Web Test\\WebAppAPITest1\\WebAppAPITest1\\SchoolWebAppAPI.csproj",
+      "projectName": "SchoolWebAppAPI",
+      "projectPath": "C:\\JobPrep_2025\\Web Test\\WebAppAPITest1\\WebAppAPITest1\\SchoolWebAppAPI.csproj",
       "packagesPath": "C:\\Users\\darth\\.nuget\\packages\\",
       "outputPath": "C:\\JobPrep_2025\\Web Test\\WebAppAPITest1\\WebAppAPITest1\\obj\\",
       "projectStyle": "PackageReference",
