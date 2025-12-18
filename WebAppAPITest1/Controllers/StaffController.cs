@@ -13,7 +13,7 @@ namespace WebAppAPITest1.Controllers
     public class StaffController : ControllerBase
     {
         private readonly StaffTestDB db = new StaffTestDB();
-        private readonly string connectionString = "server = rdabramsschool.database.windows.net; user=CloudSAbeb2522a;password=Master_yoda6!;database=schooldb;Connection Timeout=30";
+        private readonly string connectionString = WebAppConst.CONSTRING;
         private readonly ILogger<StaffController> _logger;
         private List<Staff> listStaff = new List<Staff>();
 
