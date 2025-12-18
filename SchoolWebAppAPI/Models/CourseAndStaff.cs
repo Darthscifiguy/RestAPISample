@@ -2,6 +2,17 @@ namespace WebAppAPITest1.Models
 {
     public class CourseAndStaff
     {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public int TeacherID { get; set; }
+        public int StudentCount { get; set; }
+        public DateTime StartDate { get; set; }
+        public DateTime EndDate { get; set; }
+        public string? Notes { get; set; }
+        public string? Staff { get; set; }
+        public string? Position { get; set; }
+        public string? Status { get; set; }
+
         public CourseAndStaff() { }
         public CourseAndStaff(int courseId, string courseName, int teacherCourseID, int studentCount, DateTime courseStartDate, DateTime courseEndDate, string notes, string staffName, string positionName, string currentStatus)
         {
@@ -17,16 +28,5 @@ namespace WebAppAPITest1.Models
             Status = currentStatus;
 
         }
-
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public int TeacherID { get; set; }
-        public int StudentCount { get; set; }
-        public DateTime StartDate { get; set; }
-        public DateTime EndDate { get; set; }
-        public string? Notes { get; set; }
-        public string? Staff { get; set; }
-        public string? Position { get; set; }
-        public string? Status { get; set; }
     }
 }
