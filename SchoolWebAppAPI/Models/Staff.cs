@@ -7,8 +7,22 @@ namespace WebAppAPITest1.Models
         public string Title { get; set; }
         public string Status { get; set; }
         public string? Notes { get; set; }
+        public DateTime? DateChanged { get; set; }
+        public Boolean? IsDeleted { get; set; }
+        public string? Result { get; set; }
 
         public Staff() { }
+        public Staff(int id, string name = "", string title = "", string status = "", string notes = "", DateTime dateChanged = default, Boolean isDeleted = false)
+        {
+            Id = id;
+            Name = name;
+            Title = title;
+            Status = status;
+            Notes = notes;
+            DateChanged = dateChanged;
+            IsDeleted = isDeleted;
+        }
+
         public Staff(int id, string name = "", string title = "", string status = "", string notes = "")
         {
             Id = id;
