@@ -5,6 +5,7 @@ using WebAppAPITest1.Models;
 
 namespace WebAppAPITest1.Controllers
 {
+    //Intial tester with local DB. Not in use for Azure webapp.
     [ApiController]
     [Route("[controller]")]
     public class PeopleController : ControllerBase
