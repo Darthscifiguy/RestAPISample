@@ -14,7 +14,7 @@ This REST API is called to by the School Web App ([https://schoolwebapp3rda2026.
 
 Made By Richard Abrams
 
-darthscifiguy@gmail.com
+rdabrams501@gmail.com / darthscifiguy@gmail.com
 
 
 
